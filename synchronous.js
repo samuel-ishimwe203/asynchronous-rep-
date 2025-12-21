@@ -9,3 +9,14 @@ function blockForSecond(){
 console.log("start");
 blockForSecond();
 console.log('1 second later');
+
+
+// function calls are also synchronous
+
+function greet(){
+    console.log("Hello!");
+}
+
+console.log("start");
+greet();
+console.log("end");
