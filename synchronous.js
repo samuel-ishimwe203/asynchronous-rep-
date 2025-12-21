@@ -1,77 +1,86 @@
 
-// function blockForSecond(){
-//     const start=Date.now();
-//     while(Date.now()-start<1000){
+// // function blockForSecond(){
+// //     const start=Date.now();
+// //     while(Date.now()-start<1000){
 
-//     }
-// }
+// //     }
+// // }
 
-// console.log("start");
-// blockForSecond();
-// console.log('1 second later');
+// // console.log("start");
+// // blockForSecond();
+// // console.log('1 second later');
 
 
-// // function calls are also synchronous
+// // // function calls are also synchronous
 
-// function greet(){
-//     console.log("Hello!");
-// }
+// // function greet(){
+// //     console.log("Hello!");
+// // }
 
-// console.log("start");
-// greet();
-// console.log("end");
+// // console.log("start");
+// // greet();
+// // console.log("end");
 
-// call stack
+// // call stack
  
-function first(){
-    console.log('I am the first funciton');
+// function first(){
+//     console.log('I am the first funciton');
 
-}
+// }
 
-function second(){
+// function second(){
     
-    console.log('I am the second function');
-    first();
-}
+//     console.log('I am the second function');
+//     first();
+// }
 
-second();
+// second();
 
 
-// an other example
+// // an other example
 
-function a(){
-    b();
-    console.log('Function A');
-}
+// function a(){
+//     b();
+//     console.log('Function A');
+// }
 
-function b(){
-    c();
-    console.log('Function B');
-}
-function c(){
-    console.log('Function C');
-}
+// function b(){
+//     c();
+//     console.log('Function B');
+// }
+// function c(){
+//     console.log('Function C');
+// }
 
-a();
+// a();
 
 // blocking 
 
-console.log("Start");
+// console.log("Start");
 
-while(true){
+// while(true){
 
-}
-console.log("End");
+// }
+// console.log("End");
 
+
+// non-blocking
+
+console.log("I am student 1");
+setTimeout(()=>{
+    console.log(`This is samuel's message after 3 seconds`);
+
+},3000);
+console.log("nibyo sana");
 
 // synchronous callbacks 
 
-function great(name, callback){
-    console.log(`Hello , ${name}`);
-    callback();
+// function great(name, callback){
+//     console.log(`Hello , ${name}`);
+//     callback
 
-}
+// }
 
-great('Alice', ()=>{
-    console.log("This is a callback function");
-})
+// great('Alice', ()=>{
+//     console.log("This is a callback function");
+// })
