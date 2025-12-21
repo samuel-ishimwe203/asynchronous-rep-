@@ -52,4 +52,4 @@ function c(){
     console.log('Function C');
 }
 
-a();
+a()
