@@ -108,6 +108,6 @@ setTimeout(()=>{
     })
 
     console.log("C")
-},0)
+},3000)
 
 
