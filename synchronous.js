@@ -53,3 +53,5 @@ function c(){
 }
 
 a();
+
+// blocking 
