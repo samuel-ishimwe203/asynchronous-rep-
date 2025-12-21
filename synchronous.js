@@ -111,3 +111,17 @@ setTimeout(()=>{
 },0)
 
 
+// callback example
+
+function doTask(callback){
+    setTimeout(()=>{
+      callback('task finished ')
+    },1000)
+}
+
+doTask((message)=>{
+    console.log(message)
+})
+
+console.log('Task started')
+
