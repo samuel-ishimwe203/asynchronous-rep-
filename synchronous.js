@@ -62,3 +62,16 @@ while(true){
 
 }
 console.log("End");
+
+
+// synchronous callbacks 
+
+function great(name, callback){
+    console.log(`Hello , ${name}`);
+    callback();
+
+}
+
+great('Alice', ()=>{
+    console.log("This is a callback function");
+})
