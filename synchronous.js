@@ -80,6 +80,6 @@ function great(name, callback){
 
 }
 
-great('lice', ()=>{
+great('Alice', ()=>{
     console.log("This is a callback function");
 })
