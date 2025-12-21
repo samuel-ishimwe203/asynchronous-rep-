@@ -72,7 +72,7 @@ setTimeout(()=>{
 
 },3000);
 console.log("nibyo san");
-// synchronous callbacks 
+// synchronous callback
 
 function great(name, callback){
     console.log(`Hello , ${name}`);
