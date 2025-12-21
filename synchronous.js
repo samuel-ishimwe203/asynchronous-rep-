@@ -87,28 +87,28 @@
 
 // simple code that shows how event loo works 
 
-console.log("A")
-setTimeout(()=>{
-    console.log("B")
-},0)
+// console.log("A")
+// setTimeout(()=>{
+//     console.log("B")
+// },0)
 
-Promise.resolve().then(()=>{
-    console.log("C")
-})
+// Promise.resolve().then(()=>{
+//     console.log("C")
+// })
 
-console.log("D")
+// console.log("D")
 
-//microtask inside the macrotask
+// //microtask inside the macrotask
 
-setTimeout(()=>{
-    console.log('A')
+// setTimeout(()=>{
+//     console.log('A')
 
-    Promise.resolve().then(()=>{
-        console.log('B')
-    })
+//     Promise.resolve().then(()=>{
+//         console.log('B')
+//     })
 
-    console.log("C")
-},0)
+//     console.log("C")
+// },0)
 
 
 // callback example
