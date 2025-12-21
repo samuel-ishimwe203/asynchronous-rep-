@@ -75,12 +75,12 @@ console.log("nibyo sana");
 
 // synchronous callbacks 
 
-// function great(name, callback){
-//     console.log(`Hello , ${name}`);
-//     callback
+function great(name, callback){
+    console.log(`Hello , ${name}`);
+    callback
 
-// }
+}
 
-// great('Alice', ()=>{
-//     console.log("This is a callback function");
-// })
+great('Alice', ()=>{
+    console.log("This is a callback function");
+})
