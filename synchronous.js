@@ -35,3 +35,21 @@ function second(){
 }
 
 second();
+
+
+// an other example
+
+function a(){
+    b();
+    console.log('Function A');
+}
+
+function b(){
+    c();
+    console.log('Function B');
+}
+function c(){
+    console.log('Function C');
+}
+
+a();
