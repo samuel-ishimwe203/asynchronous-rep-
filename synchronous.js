@@ -20,3 +20,15 @@ function greet(){
 console.log("start");
 greet();
 console.log("end");
+
+// call stack
+ 
+function first(){
+    console.log('I am the first funciton');
+
+}
+
+function second(){
+    first();
+    console.log('I am the second function');
+}
