@@ -83,3 +83,18 @@ function great(name, callback){
 great('Alice', ()=>{
     console.log("This is a callback function");
 })
+
+
+// simple code that shows how call stack works 
+
+console.log("A")
+setTimeout(()=>{
+    console.log("B")
+},0)
+
+Promise.resolve().then(()=>{
+    console.log("C")
+})
+
+console.log("D")
+
