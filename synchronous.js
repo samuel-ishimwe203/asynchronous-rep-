@@ -85,9 +85,9 @@ great('Alice', ()=>{
 })
 
 
-// simple code that shows how call stack works 
+// simple code that shows how event loop works 
 
-console.log("A")
+console.log("A)
 setTimeout(()=>{
     console.log("B")
 },0)
