@@ -29,6 +29,9 @@ function first(){
 }
 
 function second(){
-    first();
+    
     console.log('I am the second function');
+    first();
 }
+
+second();
