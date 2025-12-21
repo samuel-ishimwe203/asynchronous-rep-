@@ -113,24 +113,17 @@
 
 // callback example
 
-// function doTask(callback){
-//     setTimeout(()=>{
-//       callback('task finished ')
-//     },1000)
-// }
+function doTask(callback){
+    setTimeout(()=>{
+      callback('task finished ')
+    },1000)
+}
 
-// doTask((message)=>{
-//     console.log(message)
-// })
+doTask((message)=>{
+    console.log(message)
+})
 
-// console.log('Task started')
+console.log('Task started')
 
-//  promise
- const promise  = new promise((resolve, reject)=>{
-    if(success){
-        resolve(value);
-    }
-    else{
-        reject(error)
-    }
- })
+
+
