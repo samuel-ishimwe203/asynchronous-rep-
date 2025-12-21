@@ -55,3 +55,10 @@ function c(){
 a();
 
 // blocking 
+
+console.log("Start");
+
+while(true){
+
+}
+console.log("End");
