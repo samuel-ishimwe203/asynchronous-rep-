@@ -6,6 +6,6 @@ function blockForSecond(){
     }
 }
 
-console.log(start);
+console.log("start");
 blockForSecond();
 console.log('1 second later');
