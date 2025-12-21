@@ -98,7 +98,7 @@ Promise.resolve().then(()=>{
 
 console.log("D")
 
-microtask inside the macrotask
+//microtask inside the macrotask
 
 setTimeout(()=>{
     console.log('A')
