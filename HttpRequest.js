@@ -1,5 +1,5 @@
 
-const doTask=(callback)=>{
+const doTask=(resource,callback)=>{
     const request = new XMLHttpRequest()
 
 request.addEventListener('readystatechange',()=>{
@@ -11,19 +11,13 @@ request.addEventListener('readystatechange',()=>{
         callback('data not fetched', undefined)
     }
 })
-request.open('GET','https://jsonplaceholder.typicode.com/todos/')
+request.open('GET',resource)
 request.send()
 
 }
 
 
-doTask((error, data)=>{
-    console.log('callback faired')
-    if(error){
-        console.log(error)
-    }
-    else{
-        console.log(data)
-    }
-})
+doTask('jsonData/todos.json',(error, data)=>{
+    c
+});
 
