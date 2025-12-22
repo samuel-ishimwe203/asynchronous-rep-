@@ -3,15 +3,14 @@ const doTask=(callback)=>{
     const request = new XMLHttpRequest()
 
 request.addEventListener('readystatechange',()=>{
-    
+    const data= JSON.parse( request.responseText)
     if(request.readyState===4 && request.status===200){
-        const data= JSON.parse(request.responseText);
         callback(undefined,data)
-    }else if(request.readyState==4){
+    }else if(request.readyState===4){
         callback('data not fetched', undefined)
     }
 })
-request.open('GET','todos.json')
+request.open('GET','todos.jso')
 request.send()
 
 }
