@@ -62,7 +62,7 @@ request.send()
 doTask('jsonData/todos.json').then(result=>{
     console.log('The promise1 resolved',result);
     return doTask('jsonData/murisa.json')
-}).then(result=>{
+}).then(result=
     console.log('The promise2 resolved ',result)
 
     return doTask('jsonData/mucyo.json')
