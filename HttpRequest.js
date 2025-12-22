@@ -13,6 +13,7 @@ request.addEventListener('readystatechange',()=>{
 })
 request.open('GET','todos.json')
 request.send()
+
 }
 
 
