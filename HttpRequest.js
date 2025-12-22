@@ -1,4 +1,6 @@
-const request = new XMLHttpRequest()
+
+const doTask=()=>{
+    const request = new XMLHttpRequest()
 
 request.addEventListener('readystatechange',()=>{
     if(request.readyState===4 && request.status===200){
@@ -9,3 +11,6 @@ request.addEventListener('readystatechange',()=>{
 })
 request.open('GET','https://jsonplaceholder.typicode.com/todos/')
 request.send()
+
+}
+
