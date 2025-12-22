@@ -18,6 +18,6 @@ request.send()
 
 
 doTask('jsonData/todos.json',(error, data)=>{
-    c
+    console.log(data)
 });
 
