@@ -70,6 +70,6 @@ doTask('jsonData/todos.json').then(result=>{
     console.log('The promise3 rejected ',result)
 }).catch(error=>{
     console.log('The promise rezjected', error)
-}
+})
 
 
