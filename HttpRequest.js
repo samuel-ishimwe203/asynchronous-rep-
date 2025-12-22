@@ -10,7 +10,7 @@ request.addEventListener('readystatechange',()=>{
         callback('data not fetched', undefined)
     }
 })
-request.open('GET','https://jsonplaceholder.typicode.com/todos/')
+request.open('GET','todos.json')
 request.send()
 
 }
