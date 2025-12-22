@@ -63,11 +63,11 @@ doTask('jsonData/todos.json').then(result=>{
     console.log('The promise1 resolved',result);
     return doTask('jsonData/murisa.json')
 }).then(result=>{
-    console.log('The promise2 resolved ',result)
+    console.log('The promise2 resolved',result)
 
-    return doTask('jsonData/mucyo.json')
+    return doTask('jsonData/mucyo.json ')
 }).then(result=>{
-    console.log('The promise3 rejected ',re)
+    console.log('The promise3 rejected ')
 }).catch(error=>{
     console.lo('The promise rejected', error)
 })
