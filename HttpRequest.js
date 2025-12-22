@@ -5,7 +5,7 @@ const doTask=(callback)=>{
 request.addEventListener('readystatechange',()=>{
     const data= JSON.parse( request.responseText)
     if(request.readyState===4 && request.status===200){
-        callback(undefined,d)
+        callback(undefined,)
     }else if(request.readyState===4){
         callback('data not fetched', undefined)
     }
