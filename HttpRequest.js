@@ -41,7 +41,7 @@ request.addEventListener('readystatechange',()=>{
    
     if(request.readyState===4 && request.status===200){
          const data= JSON.parse( request.responseText)
-        callback(undefined,data)
+        callback(undefine,data)
     }else if(request.readyState===4){
         callback('data not fetched', undefined)
     }
