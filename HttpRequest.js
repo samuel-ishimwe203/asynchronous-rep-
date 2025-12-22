@@ -1,16 +1,22 @@
 
-const doTask=()=>{
+const doTask=(callback)=>{
     const request = new XMLHttpRequest()
 
 request.addEventListener('readystatechange',()=>{
     if(request.readyState===4 && request.status===200){
-        console.log(request,request.responseText)
+        callback(undefined, request.responseText)
     }else if(request.readyState===4){
-        console.log('data fatching failed')
+        callback('data not fetched', undefined)
     }
 })
 request.open('GET','https://jsonplaceholder.typicode.com/todos/')
 request.send()
 
 }
+
+
+doTask((error, data)=>{
+    console.log('callback faired')
+    if()
+})
 
