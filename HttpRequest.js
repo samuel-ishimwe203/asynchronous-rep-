@@ -67,7 +67,7 @@ doTask('jsonData/todos.json').then(result=>{
 
     return doTask('jsonData/mucyo.json')
 }).then(result=>{
-    console.log('The promise3 rejected ',result)
+    console.log('The promise3 rejected ',re)
 }).catch(error=>{
     console.lo('The promise rejected', error)
 })
