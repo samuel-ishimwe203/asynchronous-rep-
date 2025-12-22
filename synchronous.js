@@ -129,7 +129,7 @@
 // promises 
 
 const promise = new Promise((resolve, reject)=>{
-       a=1+1;
+       a=1+2;
   if(a==2){
     resolve('success');
   }else{
