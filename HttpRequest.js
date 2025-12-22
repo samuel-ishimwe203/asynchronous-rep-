@@ -7,5 +7,5 @@ request.addEventListener('readystatechange',()=>{
         console.log('data fatching failed')
     }
 })
-request.open('GET','https://jsonplaceholder.typicode.com/todos/'
+request.open('GET','https://jsonplaceholder.typicode.com/todos/')
 request.send()
