@@ -17,6 +17,11 @@ request.send()
 
 doTask((error, data)=>{
     console.log('callback faired')
-    if()
+    if(error){
+        console.log(error)
+    }
+    else{
+        console.log(data)
+    }
 })
 
