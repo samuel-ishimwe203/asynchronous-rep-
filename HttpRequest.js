@@ -60,7 +60,10 @@ request.send()
 }
 
 doTask('jsonData/todos.json').then(result=>{
-    console.log('The promise resolved',result);
+    console.log('The promise1 resolved',result);
+    return doTask('jsonData/murisa.json')
+}).then(result=>{
+    console.log
 }).catch(error=>{
     console.lo('The promise rejected', error)
 })
