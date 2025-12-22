@@ -21,7 +21,7 @@ doTask((error, data)=>{
         console.log(error)
     }
     else{
-        console.log(da
+        console.log(dat
     }
 })
 
