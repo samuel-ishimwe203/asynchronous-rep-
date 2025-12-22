@@ -3,8 +3,9 @@ const doTask=(callback)=>{
     const request = new XMLHttpRequest()
 
 request.addEventListener('readystatechange',()=>{
+    const data= JSON.parse( request.responseText)
     if(request.readyState===4 && request.status===200){
-        callback(undefined, request.responseText)
+        callback(undefined,data)
     }else if(request.readyState===4){
         callback('data not fetched', undefined)
     }
