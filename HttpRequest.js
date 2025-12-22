@@ -34,21 +34,35 @@
 
 
 
-const doTask=(resource,callback)=>{
-    const request = new XMLHttpRequest()
+const doTask=(resource)=>{
 
-request.addEventListener('readystatechange',()=>{
+          return new Promise((resolve , reject)=>{
+
+                     const request = new XMLHttpRequest()
+
+                     request.addEventListener('readystatechange',()=>{
    
-    if(request.readyState===4 && request.status===200){
-         const data= JSON.parse( request.responseText)
-        callback(undefined,data)
-    }else if(request.readyState===4){
-        callback('data not fetched', undefined)
+                           if(request.readyState===4 && request.status===200){
+                                   const data= JSON.parse( request.responseText)
+                                   resolve(data)
+                            }else if(request.readyState===4){
+                              
+                              reject('failed , data not fetched')
     }
 })
+
 request.open('GET',resource)
 request.send()
 
+    })
+
+
 }
+
+doTask('jsonData/todos.json').then(result=>{
+    console.log('The promise resolved',result);
+}).catch(error=>{
+    console.log('The promise rejected', error)
+})
 
 
