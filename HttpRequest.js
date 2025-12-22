@@ -63,6 +63,6 @@ doTask('jsonData/todos.json').then(result=>{
     console.log('The promise resolved',result);
 }).catch(error=>{
     console.log('The promise rejected', error)
-}
+})
 
 
