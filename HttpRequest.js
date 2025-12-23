@@ -96,3 +96,5 @@ const getData= async()=>{
 
     
 }
+
+getData
