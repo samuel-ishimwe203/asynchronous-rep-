@@ -114,4 +114,4 @@ async function foo(){
 }
 
 const funct=foo();
-console.log(funct
+console.log(funct)
