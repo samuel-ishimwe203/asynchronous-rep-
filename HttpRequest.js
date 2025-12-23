@@ -89,7 +89,7 @@
 
 const getData= async()=>{
 
-    const response= await fetch('jsta/murisa.json');
+    const response= await fetch('jsota/murisa.json');
     const data= await response.json(
 
 
