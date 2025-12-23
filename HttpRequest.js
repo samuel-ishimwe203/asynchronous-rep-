@@ -79,15 +79,12 @@ fetch('jsonData/todos.json').then(response=>{
     return response.json()
 }).then(data=>{
     console.log('The promise 1 resolved',data)
-     fetch('jsonData/mucyo.json')
-     return data.json()
+    return fetch('jsonData/mucyo.json')
 }).then(data=>{
     console.log('The promise 2 resolved',data)
-     fetch('jsonData/murisa.json')
-     return data.json()
+    return fetch('jsonData/murisa.json')
 }).then(data=>{
     console.log('The promise 3 resolved',data)
-    return data.json()
 }).catch(error=>{
     console.log('rejected',error)
 })
