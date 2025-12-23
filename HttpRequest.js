@@ -107,3 +107,11 @@
 // }).catch(error=>{
 //     console.log('rejected', error.message)
 // })
+
+
+async function foo(){
+    return 101;
+}
+
+const funct=foo();
+console.log(funct)
