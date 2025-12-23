@@ -63,7 +63,7 @@ toDos('jsonData/murisa.json').then(data=>{
 
 }).then(result=>{
     console.log('the promise 2 resolved', result)
-    return toDos('jsonData/murisa.json')
+    return toDos('jsonData/murisas.json')
 }).then(result=>{
     console.log('promise 3 resolved ',result)
 }).catch(error=>{
