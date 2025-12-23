@@ -59,8 +59,13 @@ const toDos=(resource)=>{
 
 toDos('jsonData/murisa.json').then(data=>{
      console.log('promise resolved :', data)
-     return 
+     return toDos('jsonData/mucyo.json');
 
+}).then(result=>{
+    console.log('the promise 2 resolved', result)
+    return toDos('jsonData/murisa.json')
+}).then(result=>{
+    console.log('promise 3 resolved ',result)
 }).catch(error=>{
     console.log(error)
 
