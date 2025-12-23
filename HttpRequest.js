@@ -70,3 +70,8 @@ toDos('jsonData/murisa.json').then(data=>{
     console.log(error)
 
 })
+
+// by fetching api
+
+
+fetch('jsonData/todos.json')
