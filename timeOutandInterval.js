@@ -1,6 +1,10 @@
 
 function greet(name){
-    console.log(`hello my name is ${name}`)
+    setTimeout(()=>{
+         console.log(`hello my name is ${name}`)
+
+    },2000)
+   
 }
 
-setTimeout(greet,3000,"samuel")
+greet("samuel")
