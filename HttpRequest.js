@@ -79,10 +79,11 @@ fetch('jsonData/todos.json').then(response=>{
     return response.json()
 }).then(data=>{
     console.log('The promise 1 resolved',data)
-    return fetch('jsonData/mucyo.json')
+     fetch('jsonData/mucyo.json')
+     return data.json()
 }).then(data=>{
     console.log('The promise 2 resolved',data)
-    return fetch('jsonData/murisa.json')
+     fetch('jsonData/murisa.json')
 }).then(data=>{
     console.log('The promise 3 resolved',data)
 }).catch(error=>{
