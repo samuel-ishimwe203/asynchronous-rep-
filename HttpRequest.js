@@ -90,7 +90,12 @@
 const getData= async()=>{
 
     const response= await fetch('jsonData/murisa.json');
+
+    if(response.status !==200){
+        throw new Error('The data has been failed ')
+    }
     const data= await response.json();
+    
 
     return data
 
@@ -98,7 +103,7 @@ const getData= async()=>{
 }
 
 getData().then(data=>{
-    console.log('The data has been displayed', data)
+    console.log('resolved', data)
 }).catch(error=>{
-    console.log('The data has been failed ', error.message)
+    console.log('rejected', error.message)
 })
