@@ -87,23 +87,23 @@
 // fetch data by using async and await
 
 
-const getData= async()=>{
+// const getData= async()=>{
 
-    const response= await fetch('jsonData/murisa.json');
+//     const response= await fetch('jsonData/murisa.json');
 
-    if(response.status !==200){
-        throw new Error('The data has been failed ')
-    }
-    const data= await response.json();
+//     if(response.status !==200){
+//         throw new Error('The data has been failed ')
+//     }
+//     const data= await response.json();
     
 
-    return data
+//     return data
 
     
-}
+// }
 
-getData().then(data=>{
-    console.log('resolved', data)
-}).catch(error=>{
-    console.log('rejected', error.message)
-})
+// getData().then(data=>{
+//     console.log('resolved', data)
+// }).catch(error=>{
+//     console.log('rejected', error.message)
+// })
