@@ -75,14 +75,10 @@
 
 
 fetch('jsonData/todos.json').then(response=>{
-    // console.log('resolved', response)
+    console.log('resolved', response)
     return response.json()
 }).then(data=>{
-    console.log('The promise 1 resolved',data)
-    return fetch('jsonData/mucyo.json')
-}).then(data=>{
-    console.log('The promise 2 resolved',data)
-    ret
+    console.log(data)
 }).catch(error=>{
     console.log('rejected',error)
 })
