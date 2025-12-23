@@ -57,7 +57,7 @@ const toDos=(resource)=>{
 }
 
 
-toDos('jsonData/murisa.json',(error,data).then(data=>{
-    console.log(data)
-}))
+toDos('jsonData/murisa.json').then(data=>{
+    
 
+})
