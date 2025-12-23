@@ -82,7 +82,7 @@ fetch('jsonData/todos.json').then(response=>{
     return fetch('jsonData/mucyo.json')
 }).then(data=>{
     console.log('The promise 2 resolved',data)
-    return fetch('jsonData/murisa.json')
+    return fetch('jsonData/murisa.jsn')
 }).then(data=>{
     console.log('The promise 3 resolved',data)
 }).catch(error=>{
