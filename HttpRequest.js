@@ -116,10 +116,12 @@ const promiseError= new Promise((resolve, reject)=>{
 const showError=async()=>{
     try{
         await promiseError
-    }catch{
+    }catch(error){
+        console.log(error)
     
     }
     
 
 }
+showError()
 
