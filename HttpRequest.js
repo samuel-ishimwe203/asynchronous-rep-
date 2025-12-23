@@ -74,4 +74,8 @@
 // by fetching api
 
 
-fetch('jsonData/todos.json')
+fetch('jsonData/todos.json').then(response=>{
+    console.log('resolved', response)
+}).catch(error=>{
+    console.log('rejected',error)
+})
