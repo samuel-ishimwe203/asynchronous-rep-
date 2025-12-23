@@ -35,5 +35,13 @@
 
 
 const toDos=(resource)=>{
-    
+
+    retqurn new Promise((resolve, reject)=>{
+
+        const request =new XMLHttpRequest()
+        request.addEventListener('readystatechange',()=>{
+            const data= JSON.parse(request.responseText);
+            if(re)
+        })
+    })
 }
