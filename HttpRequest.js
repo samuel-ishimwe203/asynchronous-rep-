@@ -110,12 +110,12 @@
 
 
 async function foo(){
-    return Promis.resolve(101);
+    return Promise.resolve(101);
 }
 
 async function getPromise(){
     const funct=await foo();
-console.log(funct)
+    console.log(funct)
 
 }
  getPromise()
