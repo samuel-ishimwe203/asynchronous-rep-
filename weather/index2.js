@@ -4,8 +4,9 @@ const queryWeather= async (city)=>{
         showLoading();
 
         const res = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metrics`)
+      if(!res.ok) throw new Error("City not found ");
       
-        
+
     }catch(error){
 
     }
