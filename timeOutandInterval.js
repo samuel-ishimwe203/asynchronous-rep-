@@ -18,12 +18,7 @@
 function interval(){
  let a=1;
 for(a=1; a<=5;a++){
-    if(a===4){
-        setInterval(()=>{
-   console.log(a)
-        },2000)
-    }
- 
+    console.log(a)
  }
 
 }
