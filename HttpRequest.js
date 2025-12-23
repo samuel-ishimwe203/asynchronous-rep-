@@ -118,4 +118,5 @@ async function getPromise(){
 console.log(funct)
 
 }
+ getPromise()
 
