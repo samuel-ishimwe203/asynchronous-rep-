@@ -36,4 +36,4 @@ function fooCall(namefn){
     namefn(name)
 }
 
-foo(fooCall)
+fooCall(foo)
