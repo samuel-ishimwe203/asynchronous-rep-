@@ -109,14 +109,12 @@
 // })
 
 
-async function foo(){
-    return Promise.resolve(101);
-}
+const promiseError= new Promise((resolve, reject)=>{
+    reject('The error occured please')
+})
 
-async function getPromise(){
-    const funct=await foo();
-    console.log(funct)
+const showError=async()=>{
+    await promiseError
 
 }
- getPromise()
 
