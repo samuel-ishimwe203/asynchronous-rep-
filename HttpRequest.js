@@ -76,7 +76,9 @@
 
 fetch('jsonData/todos.json').then(response=>{
     console.log('resolved', response)
-    re
+    return response.json()
+}).then(data=>{
+    console.log(data)
 }).catch(error=>{
     console.log('rejected',error)
 })
