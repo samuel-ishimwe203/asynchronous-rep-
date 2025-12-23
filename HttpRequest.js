@@ -40,8 +40,10 @@ const toDos=(resource)=>{
 
         const request =new XMLHttpRequest()
         request.addEventListener('readystatechange',()=>{
-            const data= JSON.parse(request.responseText);
-            if(r)
+            
+            if(request.readyState===4 && request.status===200)[
+
+            ]
         })
     })
 }
