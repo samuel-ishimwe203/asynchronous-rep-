@@ -74,11 +74,23 @@
 // by fetching api
 
 
-fetch('jsonData/todos.json').then(response=>{
-    console.log('resolved', response)
-    return response.json()
-}).then(data=>{
-    console.log(data)
-}).catch(error=>{
-    console.log('rejected',error)
-})
+// fetch('jsonData/todos.json').then(response=>{
+//     console.log('resolved', response)
+//     return response.json()
+// }).then(data=>{
+//     console.log(data)
+// }).catch(error=>{
+//     console.log('rejected',error)
+// })
+
+
+// fetch data by using async and await
+
+
+const getData= async()=>{
+
+    const response= await fetch('jsonData/murisa.json');
+    const data= await response.json();
+
+    
+}
