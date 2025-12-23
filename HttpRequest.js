@@ -84,7 +84,7 @@ fetch('jsonData/todos.json').then(response=>{
     console.log('The promise 2 resolved',data)
     return fetch('jsonData/murisa.json')
 }).then(data=>{
-    console.log
+    console.log('The promise 3 resolved',data)
 }).catch(error=>{
     console.log('rejected',error)
 })
