@@ -97,4 +97,8 @@ const getData= async()=>{
     
 }
 
-getData
+getData().then(data=>{
+    console.log('The data has been displayed', data)
+}).catch(error=>{
+    console.log()
+})
