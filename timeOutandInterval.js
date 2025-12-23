@@ -33,7 +33,7 @@ function foo(name){
 
 function fooCall(namefn){
     const name='mucyo'
-    namefn=name
+    namefn(name)
 }
 
 fooCall(foo)
