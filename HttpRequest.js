@@ -100,5 +100,5 @@ const getData= async()=>{
 getData().then(data=>{
     console.log('The data has been displayed', data)
 }).catch(error=>{
-    console.log()
+    console.log('The data has been failed ', error.message)
 })
