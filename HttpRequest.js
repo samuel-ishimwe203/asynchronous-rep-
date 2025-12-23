@@ -34,42 +34,42 @@
 
 
 
-const toDos=(resource)=>{
+// const toDos=(resource)=>{
 
-    return new Promise((resolve, reject)=>{
+//     return new Promise((resolve, reject)=>{
 
-        const request =new XMLHttpRequest();
-        request.addEventListener('readystatechange',()=>{
+//         const request =new XMLHttpRequest();
+//         request.addEventListener('readystatechange',()=>{
           
-            if(request.readyState===4 && request.status===200){
-                   const data= JSON.parse(request.responseText);
-                   resolve(data)
-            }else if(request.readyState===4){
-                reject('please failed to fetch data')
-            }
+//             if(request.readyState===4 && request.status===200){
+//                    const data= JSON.parse(request.responseText);
+//                    resolve(data)
+//             }else if(request.readyState===4){
+//                 reject('please failed to fetch data')
+//             }
                 
             
-        })
+//         })
 
-        request.open('GET', resource);
-        request.send()
-    })
-}
+//         request.open('GET', resource);
+//         request.send()
+//     })
+// }
 
 
-toDos('jsonData/murisa.json').then(data=>{
-     console.log('promise resolved :', data)
-     return toDos('jsonData/mucyo.json');
+// toDos('jsonData/murisa.json').then(data=>{
+//      console.log('promise resolved :', data)
+//      return toDos('jsonData/mucyo.json');
 
-}).then(result=>{
-    console.log('the promise 2 resolved', result)
-    return toDos('jsonData/murisa.json')
-}).then(result=>{
-    console.log('promise 3 resolved ',result)
-}).catch(error=>{
-    console.log(error)
+// }).then(result=>{
+//     console.log('the promise 2 resolved', result)
+//     return toDos('jsonData/murisa.json')
+// }).then(result=>{
+//     console.log('promise 3 resolved ',result)
+// }).catch(error=>{
+//     console.log(error)
 
-})
+// })
 
 // by fetching api
 
