@@ -43,7 +43,7 @@ fooCall(foo)
 const promise1= Promise.resolve(50)
 const promise2= 34;
 const promise3= new Promise((resolve, reject)=>{
-    setTimeout(resolve, 2000, 'samuel')
+    setTimeout(reject, 2000, 'samuel')
 })
 
 Promise.all([promise1, promise2, promise3]).then(result=>
