@@ -82,6 +82,9 @@ fetch('jsonData/todos.json').then(response=>{
     return fetch('jsonData/mucyo.json')
 }).then(data=>{
     console.log('The promise 2 resolved',data)
+    return fetch('jsonData/murisa.json')
+}).then(data=>{
+    console.log
 }).catch(error=>{
     console.log('rejected',error)
 })
