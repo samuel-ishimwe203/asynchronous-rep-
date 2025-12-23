@@ -113,5 +113,5 @@ async function foo(){
     return 101;
 }
 
-const funct=foo();
+const funct=await foo();
 console.log(funct)
