@@ -94,7 +94,7 @@ const getData= async()=>{
 
     return data
 
-    n
+    
 }
 
 getData().then(data=>{
