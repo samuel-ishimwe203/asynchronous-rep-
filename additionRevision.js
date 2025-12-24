@@ -33,7 +33,10 @@ const order=(call_production)=>{
 }
 
 const production=()=>{
-    console.log('production recieved now ')
+    setTimeout(()=>{
+          console.log('production recieved now ')
+    },2000)
+  
 }
 
 order(production)
