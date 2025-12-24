@@ -45,27 +45,52 @@
 // 2 example 
 
 
+// const stock={
+//     fruits:['banana', 'orange', 'mango'],
+//     liquid: ['water', 'ice'],
+//     holder: ['cone', 'cup','stick'],
+//     toppings: ['chocolates','peanuts']
+
+// }
+
+
+// const orderFunction=(fruit_name, callback)=>{
+//     setTimeout(()=>{
+//         console.log(`${stock.fruits[fruit_name]} was selected`)
+//     },4000)
+
+//     callback()
+// }
+
+// const production2=()=>{
+//     setTimeout(()=>{
+//         console.log('production has started')
+//     },0)
+// }
+
+// orderFunction(1,production2)
+
+
+// promise 
+
 const stock={
     fruits:['banana', 'orange', 'mango'],
     liquid: ['water', 'ice'],
     holder: ['cone', 'cup','stick'],
     toppings: ['chocolates','peanuts']
-
 }
 
 
-const orderFunction=(fruit_name, callback)=>{
-    setTimeout(()=>{
-        console.log(`${stock.fruits[fruit_name]} was selected`)
-    },4000)
+const is_stock_opennin=true;
+const orderFunction2=(time,work)=>{
 
-    callback()
+    return new Promise((resolve, reject)=>{
+
+            if(is_stock_opennin){
+
+    }
+        
+    })
+
+
 }
-
-const production2=()=>{
-    setTimeout(()=>{
-        console.log('production has started')
-    },0)
-}
-
-orderFunction(1,production2)
