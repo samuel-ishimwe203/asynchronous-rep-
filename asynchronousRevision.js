@@ -128,19 +128,22 @@
 
 // promises 
 
-const promise = new Promise((resolve, reject)=>{
-       a=1+1;
-  if(a==2){
-    resolve('success');
-  }else{
-    reject('failed')
-  }
-})
+// const promise = new Promise((resolve, reject)=>{
+//        a=1+1;
+//   if(a==2){
+//     resolve('success');
+//   }else{
+//     reject('failed')
+//   }
+// })
 
-promise.then(result=>{
-  console.log('this is '+result)
-}).catch(error=>{
-  console.log()
-})
+// promise.then(result=>{
+//   console.log('this is '+result)
+// }).catch(eror=>{
+//   console.log(e)
+// })
+
+
+
 
 
