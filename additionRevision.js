@@ -64,4 +64,4 @@ const orderFunction=(fruit_name, callback)=>{
 
 const production2=()=>{}
 
-orderFunction(2,production2)
+orderFunction(1,production2)
