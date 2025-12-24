@@ -56,9 +56,12 @@ const stock={
 
 const orderFunction=(fruit_name, callback)=>{
     setTimeout(()=>{
-        
-    })
+        console.log(`${stock.fruits[fruit_name]}`)
+    },4000)
+
+    callback()
 }
 
+const production2=()=>{}
 
-
+orderFunction(2,production2)
