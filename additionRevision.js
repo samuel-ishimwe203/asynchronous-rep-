@@ -26,17 +26,27 @@
 
 //  relationship between two functions with callback
 
-const order=(call_production)=>{
-    console.log('order placed, call productions?')
-    call_production()
+// const order=(call_production)=>{
+//     console.log('order placed, call productions?')
+//     call_production()
 
-}
+// }
 
-const production=()=>{
-    setTimeout(()=>{
-          console.log('production recieved now ')
-    },2000)
+// const production=()=>{
+//     setTimeout(()=>{
+//           console.log('production recieved now ')
+//     },2000)
   
+// }
+
+// order(production)
+
+
+// 2 example 
+
+
+const stock={
+    fruits:['banana', 'orange', 'mango'],
+    liquid: []
 }
 
-order(production)
