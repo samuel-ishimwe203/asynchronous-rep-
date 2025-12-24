@@ -54,4 +54,11 @@ const stock={
 }
 
 
+const orderFunction=(fruit_name, callback)=>{
+    setTimeout(()=>{
+        
+    })
+}
+
+
 
