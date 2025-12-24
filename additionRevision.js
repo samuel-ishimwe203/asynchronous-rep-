@@ -22,4 +22,4 @@ function two(){
     console.log("step 2")
 }
 
-two(one)
+one(two)
