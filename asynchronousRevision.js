@@ -145,21 +145,23 @@
 
 // callback hell
 
-function callbackHell(){
-  setTimeout(()=>{
-    console.log('hello')
-    setTimeout(()=>{
-      console.log('hello too how are you doing please?')
-      setTimeout(()=>{
-   console.log("Me also I'm good bt I miss ")
-      },4000)
+// function callbackHell(){
+//   setTimeout(()=>{
+//     console.log('hello')
+//     setTimeout(()=>{
+//       console.log('hello too how are you doing please?')
+//       setTimeout(()=>{
+//    console.log("Me also I'm good bt I miss ")
+//       },4000)
 
-    },3000)
-  },2000)
-}
+//     },3000)
+//   },2000)
+// }
 
-callbackHell()
+// callbackHell()
+// by fetching also 
 
+fetch("https://jsonplaceholder.typicode.com/todos").then()
 
 
 
