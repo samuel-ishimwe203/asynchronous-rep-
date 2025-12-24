@@ -165,6 +165,8 @@ fetch("https://jsonplaceholder.typicode.com/todos").then(data=>{
   return data.json()
 }).then(respond=>{
   console.log(respond)
+}).catch(error=>{
+  console.log(error)
 })
 
 
