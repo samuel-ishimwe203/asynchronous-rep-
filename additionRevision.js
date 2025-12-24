@@ -116,7 +116,7 @@ orderFunction2(2000, ()=>console.log(`${stock.fruits[1]} was selected`))
 
 })
 .then(()=>{
-    return orderFunction2(30 ()=>console.log(`${stock.toppings[0]} was selected`))
+    return orderFunction2(300 ()=>console.log(`${stock.toppings[0]} was selected`))
 })
 .then(()=>{
     return orderFunction2(2000,()=>console.log('serve ice Cream'))
