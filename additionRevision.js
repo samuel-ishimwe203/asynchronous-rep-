@@ -47,6 +47,8 @@
 
 const stock={
     fruits:['banana', 'orange', 'mango'],
-    liquid: []
+    liquid: ['water', 'ice'],
+    holder: ['cone', 'cup','stick'],
+    
 }
 
