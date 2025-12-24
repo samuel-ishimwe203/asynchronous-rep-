@@ -88,9 +88,14 @@ const orderFunction2=(time,work)=>{
 
             if(is_stock_opennin){
 
+                setTimeout(()=>{
+                  console.log(work())
+                })
+
+    }else{
+        reject("please we don't have it it our stock")
     }
         
     })
-
 
 }
