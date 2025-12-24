@@ -27,7 +27,7 @@
 //  relationship between two functions with callback
 
 const order=(call_production)=>{
-    console.log('order placed, call productions')
+    console.log('order placed, call productions?')
     call_production()
 
 }
