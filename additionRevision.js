@@ -89,7 +89,7 @@ const orderFunction2=(time,work)=>{
             if(is_stock_opennin){
 
                 setTimeout(()=>{
-                  console.log(work())
+                  resolve(work())
                 },time)
 
     }else{
