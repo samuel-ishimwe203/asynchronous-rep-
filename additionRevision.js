@@ -120,4 +120,6 @@ orderFunction2(2000, ()=>console.log(`${stock.fruits[1]} was selected`))
 })
 .then(()=>{
     return orderFunction2(2000,()=>console.log('serve ice Cream'))
+}).catch(error=>{
+    console.log(error.message)
 })
