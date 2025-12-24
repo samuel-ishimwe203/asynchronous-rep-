@@ -143,6 +143,14 @@
 //   console.log(e)
 // })
 
+// callback hell
+
+function callbackHell(message){
+  setTimeout(()=>{
+
+  },1000)
+}
+
 
 
 
