@@ -90,7 +90,7 @@ const orderFunction2=(time,work)=>{
 
                 setTimeout(()=>{
                   console.log(work())
-                })
+                },time)
 
     }else{
         reject("please we don't have it it our stock")
@@ -99,3 +99,5 @@ const orderFunction2=(time,work)=>{
     })
 
 }
+
+orderFunction2(2000, ()=>console.log(`${sto}`))
