@@ -100,4 +100,4 @@ const orderFunction2=(time,work)=>{
 
 }
 
-orderFunction2(2000, ()=>console.log(`${sto}`))
+orderFunction2(2000, ()=>console.log(`${stock.fruits[2]}`))
