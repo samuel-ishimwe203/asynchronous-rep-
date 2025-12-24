@@ -92,7 +92,7 @@ const orderFunction2=(time,work)=>{
                   resolve(work())
                 },time)
 
-    }else{
+    }else{s
         reject(console.log("please don't have it in our stock"))
     }
         
