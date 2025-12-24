@@ -161,7 +161,7 @@
 // callbackHell()
 // by fetching also 
 
-fetch("https://jsonplaceholder.typicode.com/todos").then(data=>{
+fetch("https://jsonplaceholder.typicode.com/todos1").then(data=>{
   return data.json()
 }).then(respond=>{
   console.log(respond)
