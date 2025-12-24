@@ -49,3 +49,10 @@ const promise3= new Promise((resolve, reject)=>{
 Promise.all([promise1, promise2, promise3]).then(result=>
     console.log(result)
 )
+
+//  relationship between two functions with callback
+
+const order=(call_production)=>{
+    console.log('order placed, call productions')
+
+}
