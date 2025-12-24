@@ -81,7 +81,7 @@ const stock={
 }
 
 
-const is_stock_opennin=tr;
+const is_stock_opennin=t;
 const orderFunction2=(time,work)=>{
 
     return new Promise((resolve, reject)=>{
