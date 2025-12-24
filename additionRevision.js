@@ -56,7 +56,7 @@ const stock={
 
 const orderFunction=(fruit_name, callback)=>{
     setTimeout(()=>{
-        console.log(`${stock.fruits[fruit_name]}`)
+        console.log(`${stock.fruits[fruit_name]} was selected`)
     },4000)
 
     callback()
