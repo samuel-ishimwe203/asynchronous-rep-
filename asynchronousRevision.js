@@ -171,9 +171,6 @@ fetch("https://jsonplaceholder.typicode.com/todos1").then(data=>{
   console.log("Everything is done we have tried")
 });
 
-function greet(){
-  
-}
 
 
 
