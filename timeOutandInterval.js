@@ -54,5 +54,6 @@ Promise.all([promise1, promise2, promise3]).then(result=>
 
 const order=(call_production)=>{
     console.log('order placed, call productions')
+    call_production()
 
 }
