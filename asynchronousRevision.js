@@ -151,7 +151,7 @@ function callbackHell(){
     setTimeout(()=>{
       console.log('hello too how are you doing please?')
       setTimeout(()=>{
-   console.log("Me also I'm good but I mi")
+   console.log("Me also I'm good but I mis")
       },4000)
 
     },3000)
