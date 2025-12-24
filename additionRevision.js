@@ -62,6 +62,10 @@ const orderFunction=(fruit_name, callback)=>{
     callback()
 }
 
-const production2=()=>{}
+const production2=()=>{
+    setTimeout(()=>{
+        console.log('production has started')
+    },0)
+}
 
 orderFunction(1,production2)
