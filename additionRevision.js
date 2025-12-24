@@ -84,8 +84,7 @@ const stock={
 const is_stock_opennin=true;
 const orderFunction2=(time,work)=>{
 
-    return new Promise((resolve, reject)=>{
-
+    return new Promise((resolve, reject)=
             if(is_stock_opennin){
 
                 setTimeout(()=>{
