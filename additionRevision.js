@@ -82,7 +82,7 @@ const stock={
 
 
 const is_stock_opennin=true;
-const orderFunction2=(time,work)=>{
+const orderFunction2=(work)=>{
 
     return new Promise((resolve, reject)=>{
 
@@ -90,7 +90,7 @@ const orderFunction2=(time,work)=>{
 
                 setTimeout(()=>{
                   resolve(work())
-                },time)
+                },2000)
 
     }else{
         reject("please we don't have it it our stock")
@@ -100,4 +100,4 @@ const orderFunction2=(time,work)=>{
 
 }
 
-orderFunction2(2000, ()=>console.log(`${stock.fruits[1]} was selected`))
+orderFunction2( ()=>console.log(`${stock.fruits[1]} was selected`))
