@@ -140,7 +140,7 @@ const promise = new Promise((resolve, reject)=>{
 promise.then(result=>{
   console.log('this is '+result)
 }).catch(error=>{
-  console.log(error)
+  console.log()
 })
 
 
