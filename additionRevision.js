@@ -93,7 +93,7 @@ const orderFunction2=(time,work)=>{
                 },time)
 
     }else{
-        reject("please we don't have it it our stock")
+        reject("please we don't have it it our stock"
     }
         
     })
