@@ -107,7 +107,7 @@ orderFunction2(2000, ()=>console.log(`${stock.fruits[1]} was selected`))
 })
 .then(()=>{
     return orderFunction2(1000,()=>console.log(`${stock.liquid[0]} && ${stock.liquid[1]}`))
-});
+})
 .then(()=>{
     return orderFunction2(1000, ()=>console.log('machine has started'))
 })
