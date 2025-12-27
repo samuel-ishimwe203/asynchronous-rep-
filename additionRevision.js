@@ -111,7 +111,7 @@ orderFunction2(2000, ()=>console.log(`${stock.fruits[1]} was selected`))
 .then(()=>{
     return orderFunction2(1000, ()=>console.log('machine has started'))
 })
-.then(()=>{
+.then(()=>
     return orderFunction2(2000,()=>console.log(`the container is ${stock.holder[1]}`))
 })
 .then(()=>{
