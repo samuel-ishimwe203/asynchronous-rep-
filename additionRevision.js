@@ -118,7 +118,7 @@ orderFunction2(2000, ()=>console.log(`${stock.fruits[1]} was selected`))
     return orderFunction2(3000, ()=>console.log(`${stock.toppings[0]} was selected`))
 })
 .then(()=>{
-    return orderFunction2(2000,()=>console.log('serve ice Cream'))
+    return orderFunction2(2000,()=>conole.log('serve ice Cream'))
 }).catch(()=>{
     console.log('Customer left')
 }).finally(()=>console.log('day ended, shop is clole'))
