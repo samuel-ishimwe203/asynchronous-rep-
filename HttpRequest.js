@@ -88,7 +88,7 @@ fetch('jsonData/todos.json').then(response=>{
 
 
 const getData= async()=>{
-d
+
     const response= await fetch('jsonData/murisa.json');
 
     if(response.status !==200){
