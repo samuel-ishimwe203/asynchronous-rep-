@@ -165,7 +165,7 @@ fetch("https://jsonplaceholder.typicode.com/todos1").then(data=>{
   return data.json()
 }).then(respond=>{
   console.log(respond)
-}).catch(error=>{
+}).catch(erroar=>{
   console.log("ooh no something want wrong")
 }).finally(()=>{
   console.log("Evxerything is done we have tried")
