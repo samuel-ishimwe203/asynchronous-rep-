@@ -47,7 +47,7 @@ function a(){
 function b(){
     c();
     console.log('Function B');
-}
+}s
 function c(){
     console.log('Function C');
 }
