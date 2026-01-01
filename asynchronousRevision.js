@@ -21,7 +21,7 @@ console.log("start");
 greet();
 console.log("end");
 
-call stack
+//call stack
  
 function first(){
     console.log('I am the first funciton');
