@@ -46,7 +46,7 @@ function a(){
 
 function b(){
     c();
-    console.log('Function B');
+    console.log('Function B');d
 }
 function c(){
     console.log('Function C');
