@@ -72,6 +72,7 @@ setTimeout(()=>{
 
 },3000);
 console.log("nibyo san");
+//
 synchronous callbacks 
 
 function great(name, callback){
@@ -159,7 +160,7 @@ function callbackHell(){
 }
 
 callbackHell()
-by fetching also 
+//by fetching also 
 
 fetch("https://jsonplaceholder.typicode.com/todos1").then(data=>{
   return data.json()
