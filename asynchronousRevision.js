@@ -75,7 +75,7 @@ console.log("nibyo san");
 //synchronous callbacks 
 
 function great(name, callback){
-    console.log(`Hello , ${name}`);d
+    console.log(`Hello , ${name}`);
     callback
 
 }
