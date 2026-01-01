@@ -80,7 +80,7 @@ fetch('jsonData/todos.json').then(response=>{
 }).then(data=>{
     console.log(data)
 }).catch(error=>{
-    console.log('rejected',error);
+    console.log('rejected',error);;
 })
 
 
