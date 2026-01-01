@@ -111,7 +111,7 @@ setTimeout(()=>{
 },0)
 
 
-callback example
+//callback example
 
 function doTask(callback){
     setTimeout(()=>{
