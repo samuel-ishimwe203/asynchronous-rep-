@@ -104,7 +104,7 @@ const getData= async()=>{
 
 getData().then(data=>{
     console.log('resolved', data)
-}).catch(error=>{
+}).catch(error=>{s
     console.log('rejected', error.message);
 })
 
