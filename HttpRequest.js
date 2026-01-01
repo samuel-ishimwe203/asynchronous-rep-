@@ -84,7 +84,7 @@ fetch('jsonData/todos.json').then(response=>{
 })
 
 
-/fetch data by using async and await
+//fetch data by using async and await
 
 
 const getData= async()=>{
