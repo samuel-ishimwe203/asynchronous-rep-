@@ -76,7 +76,7 @@ toDos('jsonData/murisa.json').then(data=>{
 
 fetch('jsonData/todos.json').then(response=>{
     console.log('resolved', response);
-    return response.jsxon()
+    return response.json()
 }).then(data=>{
     console.log(data)
 }).catch(error=>{
