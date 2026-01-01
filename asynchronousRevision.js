@@ -41,6 +41,7 @@ second();
 
 function a(){
     b();
+    k
     console.log('Function A');
 }
 
