@@ -1,4 +1,4 @@
-the way of fetching data using callback and callback hell
+//the way of fetching data using callback and callback hell
 const doTask=(resource,callback)=>{
     const request = new XMLHttpRequest()
 
