@@ -139,7 +139,7 @@
 
 // promise.then(result=>{
 //   console.log('this is '+result)
-// }).catch(error=>{
+// }).catch(error=>
 //   console.log(e)
 // })
 
