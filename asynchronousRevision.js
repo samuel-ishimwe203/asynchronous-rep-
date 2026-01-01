@@ -126,7 +126,7 @@ doTask((message)=>{
 console.log('Task started')
 
 
-promises 
+//promises 
 
 const promise = new Promise((resolve, reject)=>{
        a=1+1;
@@ -168,5 +168,5 @@ fetch("https://jsonplaceholder.typicode.com/todos1").then(data=>{
 }).catch(error=>{
   console.log("ooh no something want wrong")
 }).finally(()=>{
-  console.log("Everything is done we have tried")
+  console.log("Evxerything is done we have tried")
 });
