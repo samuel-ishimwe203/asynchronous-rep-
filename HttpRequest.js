@@ -94,7 +94,7 @@ const getData= async()=>{
     if(response.status !==200){
         throw new Error('The data has been failed ')
     }
-    const data= await response.json();ds
+    const data= await response.json();d
     
 
     return data
