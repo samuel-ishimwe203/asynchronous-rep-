@@ -40,7 +40,7 @@ second();
 //an other example
 
 function a(){
-    b();
+    b();s
     console.log('Function A');
 }
 
