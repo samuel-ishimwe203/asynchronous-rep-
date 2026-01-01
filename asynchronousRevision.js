@@ -64,7 +64,7 @@ while(true){
 console.log("End");
 
 
-//non-blocking
+/non-blocking
 
 console.log("I am student 1");
 setTimeout(()=>{
@@ -76,7 +76,7 @@ console.log("nibyo san");
 
 function great(name, callback){
     console.log(`Hello , ${name}`);
-    callbacks
+    callback
 
 }
 
