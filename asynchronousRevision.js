@@ -135,7 +135,7 @@
 //   }else{
 //     reject('failed')
 //   }
-// })d
+// })
 
 // promise.then(result=>{
 //   console.log('this is '+result)
