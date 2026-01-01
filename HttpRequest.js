@@ -81,7 +81,7 @@ fetch('jsonData/todos.json').then(response=>{
     console.log(data)
 }).catch(error=>{
     console.log('rejected',error);
-})s
+})
 
 
 //fetch data by using async and await
