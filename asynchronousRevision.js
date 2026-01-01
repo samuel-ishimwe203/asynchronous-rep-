@@ -158,7 +158,7 @@ function callbackHell(){
   },2000)
 }
 
-callbackHell()
+callbackHell();
 //by fetching also 
 
 fetch("https://jsonplaceholder.typicode.com/todos1").then(data=>{
