@@ -84,7 +84,7 @@ fetch('jsonData/todos.json').then(response=>{
 })
 
 
-//fetch data by using async and await
+/fetch data by using async and await
 
 
 const getData= async()=>{
@@ -117,10 +117,10 @@ const showError=async()=>{
     try{
         await promiseError
     }catch(error){
-        console.log(error);
+        console.log(error)
     
     }
 
 }
-showError();
+showError()
 
