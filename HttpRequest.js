@@ -108,7 +108,7 @@ getData().then(data=>{
     console.log('rejected', error.message);
 })
 
-
+s
 const promiseError= new Promise((resolve, reject)=>{
     reject('The error occured please');
 })
