@@ -141,7 +141,7 @@
 //   console.log('dthdis is '+result)
 // }).catch(error=>{
 //   console.log(e)
-// }
+// })
 
 // callback hell
 
