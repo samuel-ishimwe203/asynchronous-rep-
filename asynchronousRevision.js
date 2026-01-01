@@ -150,7 +150,7 @@
 //     console.log('hello')
 //     setTimeout(()=>{
 //       console.log('hello too how are you doing please?')
-//       setTimeout(()=>{s
+//       setTimeout(()=>{
 //    console.log("Me also I'm good bt I miss ")
 //       },4000)
 
