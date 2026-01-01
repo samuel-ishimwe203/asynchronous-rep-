@@ -64,7 +64,7 @@ while(true){
 console.log("End");
 
 
-/non-blocking
+non-blocking
 
 console.log("I am student 1");
 setTimeout(()=>{
