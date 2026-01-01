@@ -74,7 +74,7 @@ setTimeout(()=>{
 console.log("nibyo san");
 //synchronous callbacks 
 
-function great(name, callback){
+function great(name, callback){d
     console.log(`Hello , ${name}`);
     callback
 
