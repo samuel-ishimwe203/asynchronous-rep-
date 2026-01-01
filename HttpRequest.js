@@ -90,7 +90,6 @@ fetch('jsonData/todos.json').then(response=>{
 const getData= async()=>{
 
     const response= await fetch('jsonData/murisa.json');
-    
 
     if(response.status !==200){
         throw new Error('The data has been failed ')
