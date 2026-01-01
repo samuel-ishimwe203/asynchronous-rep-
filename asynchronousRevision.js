@@ -147,7 +147,7 @@
 
 // function callbackHell(){
 //   setTimeout(()=>{
-//     console.log('hello')
+//     console.log('hello')s
 //     setTimeout(()=>{
 //       console.log('hello too how are you doing please?')
 //       setTimeout(()=>{
