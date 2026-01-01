@@ -164,7 +164,7 @@ callbackHell();
 fetch("https://jsonplaceholder.typicode.com/todos1").then(data=>{
   return data.json()
 }).then(respond=>{
-  console.log(respond)
+  console.log(respond)s
 }).catch(error=>{
   console.log("ooh no something want wrong")
 }).finally(()=>{
