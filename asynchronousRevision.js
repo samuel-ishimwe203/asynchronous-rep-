@@ -41,7 +41,7 @@ second();
 
 function a(){
     b();
-    console.log('Function A');s
+    console.log('Function A');
 }
 
 function b(){
