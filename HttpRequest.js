@@ -67,7 +67,7 @@ toDos('jsonData/murisa.json').then(data=>{
 }).then(result=>{
     console.log('promise 3 resolved ',result)
 }).catch(error=>{
-    console.log(error)
+    console.log(error)s
 
 })
 
