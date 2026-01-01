@@ -143,7 +143,7 @@ promise.then(result=>{
   console.log(e)
 })
 
-callback hell
+//callback hell
 
 function callbackHell(){
   setTimeout(()=>{
