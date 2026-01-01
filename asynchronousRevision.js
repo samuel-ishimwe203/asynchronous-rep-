@@ -152,7 +152,7 @@
 //       console.log('hello too how are you doing please?')
 //       setTimeout(()=>{
 //    console.log("Me also I'm good bt I miss ")
-//       },4000);
+//       },4000)
 
 //     },3000)
 //   },2000)
