@@ -37,7 +37,7 @@ function second(){
 second();
 
 
-//an other exampl
+//an other example
 
 function a(){
     b();
