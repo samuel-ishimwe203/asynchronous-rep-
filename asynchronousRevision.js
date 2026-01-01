@@ -49,7 +49,7 @@ function b(){
     console.log('Function B');
 }
 function c(){
-    console.log('Function C');d
+    console.log('Function C');
 }
 
 a();
