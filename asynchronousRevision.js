@@ -85,7 +85,7 @@ great('Alice', ()=>{
 })
 
 
-simple code that shows how event loo works 
+//simple code that shows how event loo works 
 
 console.log("A")
 setTimeout(()=>{
