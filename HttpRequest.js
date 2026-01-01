@@ -87,7 +87,7 @@ fetch('jsonData/todos.json').then(response=>{
 //fetch data by using async and await
 
 
-const getData= async()=>{
+const getData= async()=>{;
 
     const response= await fetch('jsonData/murisa.json');
 
