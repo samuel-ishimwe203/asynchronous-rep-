@@ -79,7 +79,7 @@ fetch('jsonData/todos.json').then(response=>{
     return response.json()
 }).then(data=>{
     console.log(data)
-}).catch(error=>{
+}).catch(error=>{s
     console.log('rejected',error)
 })
 
