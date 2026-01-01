@@ -138,7 +138,7 @@
 // })
 
 // promise.then(result=>{
-//   console.log('dthdis is '+result)
+//   console.log('thdis is '+result)
 // }).catch(error=>{
 //   console.log(e)
 // })
