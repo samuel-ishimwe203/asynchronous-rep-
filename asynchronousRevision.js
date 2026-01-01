@@ -39,7 +39,7 @@ second();
 
 //an other example
 
-function a(){
+function a(){;
     b();
     console.log('Function A');
 }
