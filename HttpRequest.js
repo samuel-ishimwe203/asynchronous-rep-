@@ -8,7 +8,7 @@ request.addEventListener('readystatechange',()=>{
          const data= JSON.parse( request.responseText)
         callback(undefined,data)
     }else if(request.readyState===4){
-        callback('data not fetched', undefsined)
+        callback('data not fetched', undefined)
     }
 })
 request.open('GET',resource)
