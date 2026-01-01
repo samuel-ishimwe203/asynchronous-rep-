@@ -29,7 +29,7 @@ doTask('jsonData/todos.json',(error, data)=>{
 });
 
 
-now here is upgraded easy way of fetching data using promise
+//now here is upgraded easy way of fetching data using promise
 
 
 
