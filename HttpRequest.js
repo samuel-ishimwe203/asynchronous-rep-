@@ -116,7 +116,7 @@ const promiseError= new Promise((resolve, reject)=>{
 const showError=async()=>{
     try{
         await promiseError
-    }catch(error){s
+    }catch(error){
         console.log(error);
     
     }
