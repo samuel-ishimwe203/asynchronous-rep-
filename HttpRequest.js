@@ -113,7 +113,7 @@ const promiseError= new Promise((resolve, reject)=>{
     reject('The error occured please');
 })
 
-const showError=async()=>{
+const showError=asyncs()=>{
     try{
         await promiseError
     }catch(error){
