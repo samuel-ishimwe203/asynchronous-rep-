@@ -109,7 +109,7 @@ getData().then(data=>{
 })
 
 
-const promiseError= new Promise((raesolve, reject)=>{
+const promiseError= new Promise((resolve, reject)=>{
     reject('The error occured please');
 })
 
