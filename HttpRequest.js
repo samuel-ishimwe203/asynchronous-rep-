@@ -112,7 +112,7 @@ getData().then(data=>{
 const promiseError= new Promise((resolve, reject)=>{
     reject('The error occured please');
 })
-w
+
 const showError=async()=>{
     try{
         await promiseError
