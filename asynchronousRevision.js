@@ -68,7 +68,7 @@ console.log("End");
 
 console.log("I am student 1");
 setTimeout(()=>{
-    console.log(`This is samuel's message after 3 seconds`);
+    console.log(`This is samuel's message after 3 seconds`);s
 
 },3000);
 console.log("nibyo san");
