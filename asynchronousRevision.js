@@ -71,7 +71,7 @@ setTimeout(()=>{
     console.log(`This is samuel's message after 3 seconds`);
 
 },3000);
-console.log("nibyo sans");
+console.log("nibyo san");
 //synchronous callbacks 
 
 function great(name, callback){
