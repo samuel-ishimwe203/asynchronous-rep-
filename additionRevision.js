@@ -123,14 +123,3 @@
 //     console.log('Customer left')
 // }).finally(()=>console.log('day ended, shop is clole'))
 
-
-async function fetchAndProcessData(){
-    try {
-        const userData= await fetchUserData()
-        const userPosts= await fetchUserPosts();
-        processAndDisplay(userData, userPosts)
-        
-    } catch (error) {
-        console.log('error occurred:', error)
-    }
-}
