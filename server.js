@@ -11,7 +11,7 @@ app.get("/api/users",(req,res)=>{
         {id:1, name:"samuel"},
         {id:1, name:"samuel"},
         {id:1, name:"samuel"},
-    ])
+    ])s
 })
 
 app.post("/user",(req,res)=>{
