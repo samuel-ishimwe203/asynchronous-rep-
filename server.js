@@ -15,7 +15,7 @@ app.get("/api/users",(req,res)=>{
 })
 
 app.post("/user",(req,res)=>{
-    let user= req.body;
+    let user= req.bosdy;
     console.log({message:"recieved user data", user});
 
 })
