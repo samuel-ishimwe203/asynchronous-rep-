@@ -127,7 +127,7 @@
 async function fetchAndProcessData(){
     try {
         const userData= await fetchUserData()
-        const userPostss= await fetchUserPosts();
+        const userPosts= await fetchUserPosts();
         processAndDisplay(userData, userPosts)
         
     } catch (error) {
