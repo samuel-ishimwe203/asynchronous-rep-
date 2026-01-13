@@ -2,14 +2,14 @@
 const samuel= require('events')
 const event=new samuel();
 
-event.on("message",(user,message)=>{
+event.on("message",({user,message})=>{
     console.log(`I am ${user} this is my system ${message}`)
 })
 
-const sendMessage=(user,msg,time)=>{
+const sendMessage=(user,message,time)=>{
     setTimeout(()=>{
    
-        event.emit('message',({user, msg}))
+        event.emit('message',({user, message}))
 
     },time)
 }
