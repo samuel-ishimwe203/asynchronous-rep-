@@ -6,7 +6,7 @@ event.on("message",({user,message})=>{
     console.log(`I am ${user} this is my system ${message}`)
 })
 
-const sendMessage=(user,message,jtime)=>{
+const sendMessage=(user,message,time)=>{
     setTimeout(()=>{
    
         event.emit('message',({user, message}))
