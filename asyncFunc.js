@@ -2,7 +2,7 @@
 function getData(){
     return new Promise(async(resolve, reject)=>{
         try {
-            let data= await fetch("http://localhost:3000/api/users");
+            let data= await fetch("mucyo.json");
             if(!data.ok) throw new Error ('failed to fetch data');
             let users= await data.json()
             resolve(users)
