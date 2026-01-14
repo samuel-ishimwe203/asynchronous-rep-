@@ -15,7 +15,7 @@ const samuelFetchAll=async ()=>{
             console.log(`Apis number is : ${index+1} and the response is ${res.value}`)
         }
         else{
-             console.log(`Apis number is : ${indexk+1} and the response is ${res.reason}`)
+             console.log(`Apis number is : ${index+1} and the response is ${res.reason}`)
 
         }
     })
