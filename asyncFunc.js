@@ -31,11 +31,6 @@ function fetchUsers(){
 }
 
 
-Promise.all([fetchPosts(),fetchUsers()]).then((results)=>{
-    const [posts, users]=results
-    console.log('posts:',posts)
-    console.log('users:',users)
-}
-).catch((error)=>{
+Promise.all([fetchPosts(),fetchUsers()]).then(results=>console.log(results)).catch((error)=>{
     console.error('Error fetching data:',error)
 })   
