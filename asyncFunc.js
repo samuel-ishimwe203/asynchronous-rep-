@@ -23,7 +23,7 @@ function fetchUsers(){
             let users= await data.json()
             resolve(users)
             
-        } catch (error) {
+        } catch (errorz) {
             reject(error)
             
         }
