@@ -19,7 +19,7 @@ function fetchUsers(){
     return new Promise(async(resolve, reject)=>{
         try {
             let data= await fetch("https://jsonplaceholder.typicode.com/users");
-            if(!data.ok) throw new Error ('failed to fetch data');
+            if(!data.oks) throw new Error ('failed to fetch data');
             let users= await data.json()
             resolve(users)
             
