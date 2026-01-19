@@ -24,7 +24,7 @@ function fetchUsers(){
             resolve(users)
             
         } catch (error) {
-            reject(errors)
+            reject(error)
             
         }
     })
