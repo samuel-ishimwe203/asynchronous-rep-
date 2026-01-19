@@ -22,7 +22,7 @@ function fetchUsers(){
             if(!data.ok) throw new Error ('failed to fetch data');
             let users= await data.json()
             resolve(users)
-            z
+            
         } catch (error) {
             reject(error)
             
