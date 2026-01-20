@@ -34,5 +34,5 @@ function getAnother(){
     })
 }
 
-function getThisss
+function getThiss
 
