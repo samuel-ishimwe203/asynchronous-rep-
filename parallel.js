@@ -34,5 +34,5 @@ function getAnother(){
     })
 }
 
-function getThis
-d
+function getThiss
+
