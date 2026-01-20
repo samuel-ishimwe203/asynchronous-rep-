@@ -34,5 +34,5 @@ function getAnother(){
     })
 }
 
-function getT
+function get
 
