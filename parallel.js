@@ -1,22 +1,38 @@
-const fetchPosts = async () => {
-    try {
-        const response = await fetch("https://jsonplaceholder.typicode.com/posts");
-        if(!response.ok)throw new Error(`HTTP error! status: ${response.status}`);
-           
-              const data = await response.json();
-              console.log(data);
 
-        } catch (error) {
-        console.error('Error fetching posts:', error);
+ function getPost(){
+
+
+return new Promise(async(resolve, reject)=>{
+
+    try {
+         const data = await fetch('https://jsonplaceholder.typicode.com/posts');
+         if(!data.ok) throw new Error('failed to fetch data');
+         const result=await data.json()
+         resolve(result)
+        
+    } catch (error) {
+        reject(error)
         
     }
+})
+    }
 
-};
+function getAnother(){
+    return new Promise(async(resolve, reject)=>{
+        try {
 
-fetchPosts();
+            const response= await fetch('https://jsonplaceholder.typicode.com/users')
+            if(!response.ok) throw new Error('failed to fetch');
 
-// const fetchUsers = async () => {
-//   const response = await fetch("https://jsonplaceholder.typicode.com/users");
-//   const data = await response.json();
-//   return data;
-// };
+            const result=await response.json()
+            resolve(result);
+            
+        } catch (error) {
+            reject(error)
+            
+        }
+    })
+}
+
+function getThis
+
