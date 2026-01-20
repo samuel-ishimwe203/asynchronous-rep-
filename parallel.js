@@ -8,4 +8,4 @@ setTimeout(()=>{
     console.log('now async is finished')
 })
 
-console.log('End')s
+console.log('End')
