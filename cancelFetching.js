@@ -13,6 +13,6 @@ const controller= new AbortController;
 })()
 
 setTimeout(()=>{
-    controller.abort()
+    controller.abort()s
     console.log('cancelled')
 },1000)
