@@ -11,7 +11,7 @@ const fetchPosts = async () => {
         
     }
 
-};s
+};
 
 fetchPosts();
 
