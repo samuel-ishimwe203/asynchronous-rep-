@@ -2,10 +2,12 @@
 
 // Example of asynchronous 
 
-console.log('start');
+// console.log('start');
 
-setTimeout(()=>{
-    console.log('now async is finished')
-},4000)
+// setTimeout(()=>{
+//     console.log('now async is finished')
+// },4000)
 
-console.log('End')
+// console.log('End')
+
+Promise.allSettled([new Promise(resolve=>resolve("done")),new Promise((_,reject)=>reject("fail"))]).then(data=>console.log(data))
