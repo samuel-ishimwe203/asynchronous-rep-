@@ -29,6 +29,6 @@ const promise= new Promise(function(resolve, reject){
 promise.then(
     // (result)=>console.log(result),
     null,
-    (error)=>console.log(error)
+    (error)=>console.log(errorz)
 )
 
