@@ -36,7 +36,7 @@ promise.then(
 
 
 const getUser=new Promise(function(resolve, reject){
-    const user={ k
+    const user={ 
         name: 'samuel',
         email: 'samuel@gmail.com',
         password :12344
