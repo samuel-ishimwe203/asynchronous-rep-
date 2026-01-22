@@ -46,4 +46,4 @@ const getUser=new Promise(function(resolve, reject){
 })
 
 getUser().then(result=>console.log(result))
-
+s
