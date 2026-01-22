@@ -63,7 +63,7 @@ let promise1=getData("");
 let promise2=getData("")
 let promise3=getData("")
 
-Promise.all([promise1d,promise2,promise3]).then(result=>{
+Promise.all([promise1,promise2,promise3]).then(result=>{
     console.log(result)
 }).catch(error=>{
     console.log(error)
