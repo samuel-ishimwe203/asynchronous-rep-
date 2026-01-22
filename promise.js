@@ -23,7 +23,7 @@
 
 /// how then handling handle either resolved or rejected values
 const promise= new Promise(function(resolve, reject){
-     reject('I am student in tumba collegeeee')
+     resolve('I am student in tumba collegeeee')
 })
 
 promise.then(
@@ -45,5 +45,5 @@ const getUser=new Promise(function(resolve, reject){
     resolve(user)
 })
 
-getUser().then(result=>console.log(result));
+getUser.then(result=>console.log(result));
 
