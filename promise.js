@@ -47,3 +47,25 @@ const getUser=new Promise(function(resolve, reject){
 
 getUser.then(result=>console.log(result));
 
+// how to use the Promise.all()
+
+function getData(url){
+
+    return fetch(url).then((response)=>{
+        if(!response.ok){
+            throw new Error('This data is not fetched please check again')
+        }
+        return response.json()
+    })
+}
+
+let promise1=getData("");
+let promise2=getData("")
+let promise3=getData("")
+
+Promise.all([promise1,promise2,promise3]).then(result=>{
+    console.log(result)
+}).catch(error=>{
+    console.log(error)
+})
+
