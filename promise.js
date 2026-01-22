@@ -68,4 +68,4 @@ Promise.all([promise1,promise2,promise3]).then(result=>{
 }).catch(error=>{
     console.log(error)
 })
-
+s
