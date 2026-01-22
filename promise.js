@@ -21,8 +21,14 @@
 
 */
 
-
+/// how then handling handle either resolved or rejected values
 const promise= new Promise(function(resolve, reject){
-    return resolve('I am student in tumba college')
+     reject('I am student in tumba collegeeee')
 })
+
+promise.then(
+    // (result)=>console.log(result),
+    null,
+    (error)=>console.log(error)
+)
 
