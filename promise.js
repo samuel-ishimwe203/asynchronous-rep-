@@ -59,7 +59,7 @@ function getData(url){
     })
 }
 
-let promise1=getData("");2
+let promise1=getData("");
 let promise2=getData("")
 let promise3=getData("")
 
