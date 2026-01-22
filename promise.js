@@ -32,4 +32,18 @@ promise.then(
     // (error)=>console.log(error )
 )
 
+// promise
+
+
+const getUser=new Promise(function(resolve, reject){
+    const user={
+        name: 'samuel',
+        email: 'samuel@gmail.com',
+        password :12344
+    }
+
+    resolve(user)
+})
+
+getUser().then(result=>console.log(result))
 
