@@ -42,7 +42,7 @@ const getUser=new Promise(function(resolve, reject){
         password :12344
     }
 
-    resolve(user)
+    resolvse(user)
 })
 
 getUser.then(result=>console.log(result));
