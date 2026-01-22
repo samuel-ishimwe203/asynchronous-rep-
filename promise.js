@@ -64,7 +64,7 @@ let promise2=getData("")
 let promise3=getData("")
 
 Promise.all([promise1,promise2,promise3]).then(result=>{
-    console.log(result)s
+    console.log(result)
 }).catch(error=>{
     console.log(error)
 })
