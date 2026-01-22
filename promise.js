@@ -45,5 +45,5 @@ const getUser=new Promise(function(resolve, reject){
     resolve(user)
 })
 
-getUser.then(result=>console.log(ressult));
+getUser.then(result=>console.log(result));
 
