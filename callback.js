@@ -4,8 +4,11 @@
 
 function greet(name, callback){
     console.log(`hello ${name}`);
-    callback();
-    
+  
+    setTimeout(()=>{
+            callback();
+    },2000)
+   console.log('are there ')
 
 }
 
