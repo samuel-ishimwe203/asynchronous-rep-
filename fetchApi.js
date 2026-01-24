@@ -55,8 +55,8 @@ async function getUser() {
      }
 
 async function FetchAll (){
-    const res = Promise.race([ getUser(),getTodos()])
-    return res;s
+    const res = Promise.race([ getUser(),getTodos(),getComment()])
+    return res;
 }
 
     
