@@ -55,7 +55,7 @@ async function getUser() {
      }
 
 async function FetchAll (){
-    const res = Promise.([ getUser(),getTodos(),getComment()])
+    const res = Promise.all([ getUser(),getTodos(),getComment()])
     return res;
 }
 
