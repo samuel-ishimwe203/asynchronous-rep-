@@ -56,7 +56,7 @@ async function getUser() {
             
         } catch (error) {
             console.log(error)
-            
+            s
         }
      }
 
