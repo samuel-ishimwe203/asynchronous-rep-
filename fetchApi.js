@@ -30,7 +30,7 @@ async function getUser() {
 
                 console.log(data)
 
-              },1000) 
+              },3000) 
             
         } catch (error) {
             console.log(error)
@@ -52,10 +52,10 @@ async function getUser() {
 
                 console.log(data)
 
-              },1000) 
+              },5000) 
             
         } catch (error) {
-            console.log(error)
+            console.log(weerror)
             
         }
      }
