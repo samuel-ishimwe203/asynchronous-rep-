@@ -5,19 +5,18 @@ async function getUser() {
                const fetch1= await fetch('https://jsonplaceholder.typicode.com/users')
                if(!fetch1.ok) throw new Error('failed to fetch data');
                const data = await fetch1.json();
-              setTimeout(()=>{
+             
 
-                console.log(data)
+                return data
 
-              },1000) 
             
         } catch (error) {
-            console.log(error)
+           return error
             
         }
      }
 
-     getUser()
+   
 
 
      async function getTodos() {
@@ -26,19 +25,18 @@ async function getUser() {
                const fetch1= await fetch('https://jsonplaceholder.typicode.com/todos')
                if(!fetch1.ok) throw new Error('failed to fetch data');
                const data = await fetch1.json();
-                 setTimeout(()=>{
+                
 
-                console.log(data)
+                return data
 
-              },3000) 
+           
             
         } catch (error) {
-            console.log(error)
+            return error
             
         }
      }
 
-   getTodos()
 
 
 
@@ -48,18 +46,23 @@ async function getUser() {
                const fetch1= await fetch('https://jsonplaceholder.typicode.com/comments')
                if(!fetch1.ok) throw new Error('failed to fetch data');
                const data = await fetch1.json();
-                 setTimeout(()=>{
-
-                console.log(data)
-
-              },5000) 
+              return data
             
         } catch (error) {
-            console.log(error)
+            return error;
             
         }
      }
 
-   getComment()
+async function FetchAll (){
+    const res = Promise.all([getData(),getTodos(),getComment()])
+    return res;
+}
 
     
+
+FetchAll().then((result)=>{
+    console.log(result)
+}).catch(error=>{
+    console.error(error)
+})
