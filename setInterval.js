@@ -1,10 +1,19 @@
 
-function setintervals(){
-    setInterval(()=>{
+let interval;
+function intervals(){
+    interval=setInterval(()=>{
 
         console.log("hello")
 
     },2000)
+
+    
 }
 
-setintervals()
+intervals()
+
+
+setTimeout(()=>{
+    clearInterval(interval)
+    console.log('Interval cleared')
+},10000)
