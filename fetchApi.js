@@ -55,7 +55,7 @@ async function getUser() {
               },5000) 
             
         } catch (error) {
-            console.log(weerror)
+            console.log(werror)
             
         }
      }
