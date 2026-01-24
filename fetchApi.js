@@ -43,7 +43,7 @@ async function getUser() {
     async function getComment() {
 
     try {
-               const fetch1= await fetch('https://jsonplaceholder.typicode.com/comments')
+               const fetch1= await fetch('https://jsonplaceholdesr.typicode.com/comments')
                if(!fetch1.ok) throw new Error('failed to fetch data');
                const data = await fetch1.json();
               return data
@@ -55,7 +55,7 @@ async function getUser() {
      }
 
 async function FetchAll (){
-    const res = Promise.all([getData(),getTodos(),getComment()])
+    const res = Promise.allSettled([ getUser(),getTodos(),getComment()])
     return res;
 }
 
