@@ -16,7 +16,7 @@ app.get('/api/sam/data',(req,res)=>{
 })
 
 
-app.listen(port, ()=>{
+app.listen(port, (z)=>{
     console.log(`server is running on:`,port);
 })
 
