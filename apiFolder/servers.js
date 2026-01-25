@@ -7,7 +7,7 @@ const port= 4000;
 
 app.get('/api/sam/data',(req,res)=>{
 
-    res.json({z
+    res.json({
         name: 'samuel',
         email:'samuel@gmail.com'
     
