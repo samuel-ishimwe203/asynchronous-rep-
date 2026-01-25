@@ -5,6 +5,6 @@ const eventEmitter= new emitter();
 eventEmitter.on('login',(user)=>{
 console.log(`${user} logged in please`)
 })
-s
+ss
 eventEmitter.emit('login','samuel')
 
