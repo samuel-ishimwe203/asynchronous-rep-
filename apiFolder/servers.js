@@ -18,7 +18,7 @@ app.get('/api/sam/data',(req,res)=>{
 
 
 
-zapp.listen(port, ()=>{
+app.listen(port, ()=>{
     console.log(`server is running on:`,port);
 })
 
