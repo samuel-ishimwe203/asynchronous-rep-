@@ -4,7 +4,7 @@ const eventEmitter= new emitter();
 
 eventEmitter.on('login',(user)=>{
 console.log(`${user} logged in please`)
-})d
+})
 
 eventEmitter.emit('logixn','samuel')
 
