@@ -2,7 +2,7 @@
 const emitter= require("events");
 const eventEmitter= new emitter();
 
-eventEmitter.on('losgin',(user)=>{
+eventEmitter.on('login',(user)=>{
 console.log(`${user} logged in please`)
 })
 
