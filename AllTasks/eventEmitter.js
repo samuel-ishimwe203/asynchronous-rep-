@@ -6,5 +6,5 @@ eventEmitter.on('login',(user)=>{
 console.log(`${user} logged in please`)
 })
 
-eventEmitter.emit('login','samuel')
+eventEmitter.emit('logins','samuel')
 
